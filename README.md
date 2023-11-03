@@ -45,7 +45,8 @@ npm install
 ```bash
 npm start
 
-# Usage
+`## Usage`
+
 1. Open your web browser and navigate to (project url)
 2. You will see the Taskify interface.
 3. Click on the "+" button to add a new task.
