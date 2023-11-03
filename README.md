@@ -35,3 +35,12 @@ Before running Taskify, make sure you have the following installed:
 
 ```bash
 git clone https://github.com/Twayfrancis/taskify_v1.git
+cd taskify
+
+2. Install the dependencies:
+```bash
+npm install
+
+3. Start the Application
+```bash
+npm start
