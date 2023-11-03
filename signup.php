@@ -24,7 +24,8 @@
                     <label for="password">Password</label>
                     <input type="password" id="password" name="password" placeholder="Enter your unique password" required>
                 </div>
-                <button type="submit" class="cta-button">Sign Up</button>
+		<button type="submit" class="cta-button">Sign Up</button>
+                <p>Learn more <a href="about.php">learn more</a>.<p>
             </form>
             <p>Already have an account? <a href="login.php">Log in here</a>.</p>
         </main>
