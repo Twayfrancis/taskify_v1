@@ -44,9 +44,9 @@ npm install
 3. Start the Application
 ```bash
 npm start
-
-`## Usage`
-
+```
+ ## Usage
+ 
 1. Open your web browser and navigate to (project url)
 2. You will see the Taskify interface.
 3. Click on the "+" button to add a new task.
@@ -55,3 +55,12 @@ npm start
 6. You can edit or delete tasks by clicking on the respective buttons next to each task.
 7. To mark a task as completed, click on the checkbox icon.
 8. Use the filters at the top to sort tasks by status and due date.
+
+## Contributing 
+If you'd like to contribute to Taskify, please follow these steps:
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and test thoroughly.
+4. Commit your changes with descriptive commit messages.
+5. Push your branch to your forked repository.
+6. Submit a pull request with a detailed explanation of your changes.
