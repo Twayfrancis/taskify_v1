@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Taskify</title>
+		<link rel="stylesheet" href="stylesheet/landing.css">
+		<link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+	</head>
+	<body>
+		<header>
+			<nav class="navbar">
+				<div>
+					<h1 class="logo-title"><i class="bx bx-task"></i> Taskify</h1>
+				</div>
+				<div class="btns">
+					<div><form action="Taskify/pages/login.php"><button type="submit" class="login-btn">Log In</button>&emsp;</form></div>
+					 <div><form action="Taskify/pages/signup.php"><button type="submit" class="login-btn">Sign Up</button>&emsp;</form></div>
+				</div>
+			</nav>
+		</header>
+		<main>
+			<section class="hero">
+				<h2>Welcome to Taskify App!</h2>
+				<p>Elevate Your Productivity.</p>
+			</section>
+			<section class="login-signup">
+				<h2>Explore Our Features</h2>
+				<div class="cards-features">
+					<!-- first card -->
+					<div class="card">
+						<a class="card1" href="Taskify/pages/signup.php">
+							<p>Manage Task</p>
+							<p class="small">You can Manage tasks In this website</p>
+							<div class="go-corner" href="#">
+								<div class="go-arrow">
+									 →
+								</div>
+							</div>
+						</a>
+					</div>
+				<!-- second card -->
+				<div class="card">
+					<a class="card1" href="Taskify/pages/signup.php">
+						<p>Simple Adding and Updating Task</p>
+						<p class="small">We have a simple interface of adding and viewing created tasks</p>
+						<div class="go-corner" href="#">
+							<div class="go-arrow">
+								 →
+							</div>
+						</div>
+					</a>
+				</div>
+				<!-- third card -->
+				<div class="card">
+					<a class="card1" href="Taskify/pages/signup.php">
+						<p>Priority and Deletion</p>
+						<p>Set priority and delete task after completion</p>
+						<div class="go-corner" href="#">
+							<div class="go-arrow">
+								→
+							</div>
+						</div>
+					</a>
+				</div>
+				</div>
+				<!-- terms and condition -->
+				<div class="container">
+					<h3 class="termsandconditionsh1"><span class="required">*</span> T&C Apply</h3>
+					<p class="termsandconditions">
+					Welcome to Taskify! These terms and conditions govern your use of the Taskify application and website. By accessing or using Taskify, you agree to be bound by these terms and conditions. Please read them carefully.
+					</p>
+					<p class="termsandconditions">
+					Form more detailed information, please read our <a href="terms.html">Terms and Conditions</a>.
+					</p>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<div class="footer-content">
+				<div id="signature-line">
+					<p>Hi! <span style="color: #f15e5e ; font-size:larger;">Taskify</span> is my first web app.
+					<br>Do you have any feedback?</br>
+					<a href="mailto:tawaifrancis@gmail.com">Drop me a line</a>
+					</p>
+				</div>
+				<div id="contact">
+					<a href="twitter-update" target="_blank"><image class="mediaButton" src="image/twitter_before.svg" onmouseover="this.src='image/twitter_after.svg'" onmouseout="this.src='image/twitter_before.svg'"></image></a>
+					 <a href="https://github.com/Twayfrancis" target="_blank"><image class="mediaButton" src="image/github_before.svg" onmouseover="this.src='image/github_after.svg'" onmouseout="this.src='image/github_before.svg'"></image></a>
+				</div>
+			</div>
+			<p>© Copyright <?php echo date('Y'); ?> <span><i class="bx bx-task"></i> Taskify</span>. All rigthts reserved.</p>
+		</footer>
+	</body>
+</html>
