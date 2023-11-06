@@ -26,8 +26,7 @@ Taskify is a simple task management application that helps you organize and keep
 
 Before running Taskify, make sure you have the following installed:
 
-- Node.js (version X.X.X)
-- npm (version X.X.X)
+- MySql
 
 ### Installation
 
