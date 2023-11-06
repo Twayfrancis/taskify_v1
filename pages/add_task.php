@@ -17,7 +17,7 @@
                 <ul>
                     <li><a href="dashboard.php">Dashboard</a></li>
                     <li><a href="#">Settings</a></li>
-                    <li><a href="logout.php">Log Out</a></li>
+                    <li><a href="../components/logout.php">Log Out</a></li>
                 </ul>
             </nav>
         </header>
@@ -52,7 +52,6 @@
 		<button type="submit" class="cta-button">Save Task</button>
             </form>
         </main>
-        <script src="script.js"></script>
     </body>
 </html>
 

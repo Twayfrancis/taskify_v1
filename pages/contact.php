@@ -11,12 +11,12 @@
             <h1>Contact Us</h1>
             <nav>
 	    <ul>
-                <li><a href="home.php">Home</a></li>
+                <li><a href="../home.php">Home</a></li>
                 <li><a href="dashboard.php">Dashboard</a></li>
                 <li><a href="contact.php">Contact Us</a></li>
                 <li><a href="about.php">About Us</a></li>
                 <li><a href="setting.php">Settings</a></li>
-                <li><a href="logout.php">Log Out</a></li>
+                <li><a href="../components/logout.php">Log Out</a></li>
             </ul>
         </nav>
         </header>

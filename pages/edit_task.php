@@ -41,7 +41,7 @@ if(isset($_GET['task_id']) && !empty($_GET['task_id'])) {
                 <ul>
                     <li><a href="dashboard.php">Dashboard</a></li>
                     <li><a href="#">Settings</a></li>
-                    <li><a href="logout.php">Log Out</a></li>
+                    <li><a href="../components/logout.php">Log Out</a></li>
                 </ul>
             </nav>
         </header>
@@ -68,7 +68,6 @@ if(isset($_GET['task_id']) && !empty($_GET['task_id'])) {
                 <button type="submit" class="cta-button">Save Changes</button>
             </form>
         </main>
-        <script src="script.js"></script>
     </body>
 </html>
 

@@ -11,18 +11,18 @@
     <h1>Settings</h1>
     <nav>
 	    <ul>
-                <li><a href="home.php">Home</a></li>
+                <li><a href="../home.php">Home</a></li>
                 <li><a href="dashboard.php">Dashboard</a></li>
                 <li><a href="contact.php">Contact Us</a></li>
                 <li><a href="about.php">About Us</a></li>
                 <li><a href="setting.php">Settings</a></li>
-                <li><a href="logout.php">Log Out</a></li>
+                <li><a href="../components/logout.php">Log Out</a></li>
             </ul>
         </nav>
     </header>
     <h1>Taskify Settings</h1>
 
-    <form action="process_settings.php" method="post">
+    <form action="../logic/process_setting.php" method="post">
 
         <!-- Delete Account -->
         <h2>Delete Account</h2>

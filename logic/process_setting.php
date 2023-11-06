@@ -12,7 +12,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // ...
         
         // Redirect user after account deletion
-        header("Location: index.php");
+        header("Location: ../index.php");
         exit();
     }
 
@@ -24,7 +24,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // ...
         
         // Redirect user after task deletion
-        header("Location: settings.php");
+        header("Location: ../pages/settings.php");
         exit();
     }
 
@@ -36,7 +36,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // ...
         
         // Redirect user after marking task as complete
-        header("Location: settings.php");
+        header("Location: ../pages/settings.php");
         exit();
     }
 
@@ -48,7 +48,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // ...
         
         // Redirect user after saving changes
-        header("Location: settings.php");
+        header("Location: ../pages/settings.php");
         exit();
     }
 }

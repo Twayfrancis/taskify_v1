@@ -11,12 +11,12 @@
             <h1>About Us</h1>
             <nav>
 	    <ul>
-                <li><a href="home.php">Home</a></li>
+                <li><a href="../home.php">Home</a></li>
                 <li><a href="dashboard.php">Dashboard</a></li>
                 <li><a href="contact.php">Contact Us</a></li>
                 <li><a href="about.php">About Us</a></li>
                 <li><a href="setting.php">Settings</a></li>
-                <li><a href="logout.php">Log Out</a></li>
+                <li><a href="../components/logout.php">Log Out</a></li>
             </ul>
         </nav>
         </header>
@@ -53,7 +53,6 @@
                 <p>Experience the power of Taskify and take control of your tasks like never before. Sign up now and elevate your productivity!</p>
             </section>
         </main>
-        <script src="script.js"></script>
     </body>
 </html>
 
