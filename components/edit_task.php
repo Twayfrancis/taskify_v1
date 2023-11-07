@@ -68,7 +68,6 @@ if(isset($_GET['task_id']) && !empty($_GET['task_id'])) {
                 <button type="submit" class="cta-button">Save Changes</button>
             </form>
         </main>
-        <script src="script.js"></script>
     </body>
 </html>
 

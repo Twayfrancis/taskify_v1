@@ -30,7 +30,6 @@
 	    </form>
             <p>Already have an account? <a href="login.php">Log in here</a>.</p>
         </main>
-        <script src="script.js"></script>
     </body>
 </html>
 

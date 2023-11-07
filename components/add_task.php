@@ -52,7 +52,6 @@
 		<button type="submit" class="cta-button">Save Task</button>
             </form>
         </main>
-        <script src="script.js"></script>
     </body>
 </html>
 

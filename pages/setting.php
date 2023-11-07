@@ -8,9 +8,9 @@
 </head>
 <body>
     <header>
-    <h1>Settings</h1>
-    <nav>
-	    <ul>
+        <h1>Settings</h1>
+        <nav>
+            <ul>
                 <li><a href="../home.php">Home</a></li>
                 <li><a href="dashboard.php">Dashboard</a></li>
                 <li><a href="contact.php">Contact Us</a></li>
@@ -27,40 +27,18 @@
         <!-- Delete Account -->
         <h2>Delete Account</h2>
         <label for="delete_account_password">Enter Password:</label>
-        <input type="password" id="delete_account_password" name="delete_account_password"
->
+        <input type="password" id="delete_account_password" name="delete_account_password">
         <input type="submit" name="delete_account" value="Delete Account">
 
-        <!-- Delete Task -->
-        <h2>Delete Task</h2>
-        <label for="task_id">Select Task:</label>
-        <select id="task_id" name="task_id" required>
-            <!-- Populate this dropdown with tasks from the database -->
-            <option value="1">Task 1</option>
-            <option value="2">Task 2</option>
-            <!-- Add more options as needed -->
-        </select>
-        <input type="submit" name="delete_task" value="Delete Task">
-
-        <!-- Mark Task as Complete -->
-        <h2>Mark Task as Complete</h2>
-        <label for="complete_task_id">Select Task:</label>
-        <select id="complete_task_id" name="complete_task_id" required>
-            <!-- Populate this dropdown with tasks from the database -->
-            <option value="1">Task 1</option>
-            <option value="2">Task 2</option>
-            <!-- Add more options as needed -->
-        </select>
-        <input type="submit" name="mark_complete" value="Mark as Complete">
-
-        <!-- Automatically Delete Completed Tasks -->
-        <h2>Automatically Delete Completed Tasks</h2>
-        <label for="auto_delete">Enable:</label>
-        <input type="checkbox" id="auto_delete" name="auto_delete" value="1">
-        <br><br>
-
-        <!-- Save Changes -->
-        <input type="submit" name="save_changes" value="Save Changes">
+        <!-- Password Reset -->
+        <h2>Password Reset</h2>
+        <label for="current_password">Current Password:</label>
+        <input type="password" id="current_password" name="current_password">
+        <label for="new_password">New Password:</label>
+        <input type="password" id="new_password" name="new_password">
+        <label for="confirm_password">Confirm New Password:</label>
+        <input type="password" id="confirm_password" name="confirm_password">
+        <input type="submit" name="reset_password" value="Reset Password">
     </form>
 </body>
 </html>

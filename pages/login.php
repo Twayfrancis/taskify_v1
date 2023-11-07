@@ -25,7 +25,6 @@
             </form>
             <p>Don't have an account yet? <a href="signup.php">Sign up here</a>.</p>
         </main>
-        <script src="script.js"></script>
     </body>
 </html>
 

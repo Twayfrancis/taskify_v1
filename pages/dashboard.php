@@ -65,7 +65,7 @@
                 if ($result->num_rows > 0) {
                     // Output tasks in HTML
                     while ($row = $result->fetch_assoc()) {
-                        echo "<li>{$row['title']} - <a href='../logic/process_view_task.php?id={$row['task_id']}'>View</a> - <a href='edit_task.php?task_id={$row['task_id']}'>Edit</a> - <a href='../logic/process_delete_task.php?id={$row['task_id']}' onclick='return confirm(\"Are you sure you want to delete this task?\");'>Delete</a></li>";
+                        echo "<li>{$row['title']} - <a href='javascript:void(0);' onclick='showTaskDetails(\"{$row['title']}\", \"{$row['description']}\", \"{$row['priority']}\")'>View</a> - <a href='edit_task.php?task_id={$row['task_id']}'>Edit</a> - <a href='../logic/process_delete_task.php?id={$row['task_id']}' onclick='return confirm(\"Are you sure you want to delete this task?\");'>Delete</a></li>";
                     }
                 } else {
                     echo "<li>No tasks found.</li>";
@@ -76,6 +76,16 @@
             ?>
 	</ul>
 	<a href="add_task.php?user_id=<?php echo $user_id; ?>" class="cta-button">Add Task</a>
+	<script src="script.js"></script>
+        <div id="taskModal" class="modal">
+		<div class="modal-content">
+			<span class="close" onclick="hideTaskDetails()">&times;</span>
+			<div class="modal-header">
+				<h2 class="modal-title"></h2>
+			</div>
+			<div class="modal-body"></div>
+		</div>
+        </div>
     </main>
 </body>
 </html>
