@@ -39,9 +39,9 @@
 	    <ul>
                 <li><a href="../home.php">Home</a></li>
                 <li><a href="dashboard.php">Dashboard</a></li>
-                <li><a href="contact.php">Contact Us</a></li>
-                <li><a href="about.php">About Us</a></li>
-                <li><a href="setting.php">Settings</a></li>
+                <li><a href="contact.php"><img src="../images/phone-icon.png" alt="Contact">Contact Us</a></li>
+                <li><a href="about.php"><img src="../images/info-icon.jpg" alt="About">About Us</a></li>
+                <li><a href="setting.php"><img src="../images/settings-icon.png" alt="Settings">Settings</a></li>
                 <li><a href="../components/logout.php">Log Out</a></li>
             </ul>
         </nav>

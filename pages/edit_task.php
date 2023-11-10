@@ -40,7 +40,7 @@ if(isset($_GET['task_id']) && !empty($_GET['task_id'])) {
             <nav>
                 <ul>
                     <li><a href="dashboard.php">Dashboard</a></li>
-                    <li><a href="#">Settings</a></li>
+                    <li><a href="#"><img src="../images/settings-icon.png" alt="Settings">Settings</a></li>
                     <li><a href="../components/logout.php">Log Out</a></li>
                 </ul>
             </nav>
