@@ -322,3 +322,11 @@ body {
     font-style: italic;
   }
   
+  #contact {
+    padding-left: 2rem;
+  }
+
+  .mediaButton {
+  width: 1.5rem;
+  height: 1.5rem;
+}
