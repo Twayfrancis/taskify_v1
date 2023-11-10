@@ -21,9 +21,25 @@
                     <label for="email">Email</label>
                     <input type="email" id="email" name="email" placeholder="Enter your email" required>
                 </div>
+                <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script>
+                 $(document).ready(function () {
+        	   $('#email').on('input', function () {
+            		var allowedDomains = ['gmail.com', 'outlook.com', 'protonmail.com', 'yahoo.com'];
+            		var enteredEmail = $(this).val().trim();
+            		var enteredDomain = enteredEmail.split('@')[1];
+
+            		if (enteredDomain && allowedDomains.indexOf(enteredDomain) === -1) {
+                		$(this).get(0).setCustomValidity('Please enter a valid email from Gmail, Outlook, ProtonMail, or Yahoo.');
+            		} else {
+                	    $(this).get(0).setCustomValidity('');
+            		}
+        	   });
+                });
+               </script>
                 <div class="form-group">
                     <label for="password">Password</label>
-                    <input type="password" id="password" name="password" placeholder="Enter your unique password" required>
+                    <input type="password" id="password" name="password" title="Password must contain at least one uppercase letter, one lowercase letter, one number (6 characters minimum)" placeholder="Enter your unique password" minlength="6" required>
                 </div>
 		<button type="submit" class="cta-button">Sign Up</button>
                 <a href="about.php" class="cta-button">Learn More</a>
