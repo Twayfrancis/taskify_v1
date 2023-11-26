@@ -64,6 +64,10 @@ if(isset($_GET['task_id']) && !empty($_GET['task_id'])) {
 		    <option value="Medium" <?php if ($row['priority'] == 'Medium') echo 'selected'; ?>>Medium</option>
 		    <option value="High" <?php if ($row['priority'] == 'High') echo 'selected'; ?>>High</option>
                     </select>
+		</div>
+		<div class="form-group">
+                    <label for="due_date">Due Date</label>
+                    <input type="date" id="due_date" name="due_date" value="<?php echo $row['due_date']; ?>" required>
                 </div>
                 <button type="submit" class="cta-button">Save Changes</button>
             </form>

@@ -48,6 +48,10 @@
                         <option value="High">High</option>
                     </select>
 		</div>
+		<div class="form-group">
+                	<label for="due_date">Due Date</label>
+                        <input type="date" id="due_date" name="due_date"  required>
+                </div>
                 <input type="hidden" name="user_id" value="<?php echo $user_id; ?>">
 		<button type="submit" class="cta-button">Save Task</button>
             </form>
