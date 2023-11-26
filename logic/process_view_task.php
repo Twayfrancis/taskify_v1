@@ -19,7 +19,8 @@ if(isset($_SESSION['user_id']) && !empty($_SESSION['user_id'])) {
             // Display the task details
             echo "<h2>{$row['title']}</h2>";
             echo "<p><strong>Description:</strong> {$row['description']}</p>";
-            echo "<p><strong>Priority:</strong> {$row['priority']}</p>";
+	    echo "<p><strong>Priority:</strong> {$row['priority']}</p>";
+	    echo "<p><strong>Due Date:</strong> {$row['due_date']}</p>"; 
         } else {
             // Handle case where task does not exist or user does not have permission
             echo "Task not found.";
