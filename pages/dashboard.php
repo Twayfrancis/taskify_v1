@@ -65,7 +65,7 @@
                 if ($result->num_rows > 0) {
                     // Output tasks in HTML
                     while ($row = $result->fetch_assoc()) {
-                        echo "<li>{$row['title']} - <a href='javascript:void(0);' onclick='showTaskDetails(\"{$row['title']}\", \"{$row['description']}\", \"{$row['priority']}\")'>View</a> - <a href='edit_task.php?task_id={$row['task_id']}'>Edit</a> - <a href='../logic/process_delete_task.php?id={$row['task_id']}' onclick='return confirm(\"Are you sure you want to delete this task?\");'>Delete</a></li>";
+                        echo "<li>{$row['title']} - <a href='javascript:void(0);' onclick='showTaskDetails(\"{$row['title']}\", \"{$row['description']}\", \"{$row['priority']}\", \"{$row['due_date']}\")'>View</a> - <a href='edit_task.php?task_id={$row['task_id']}'>Edit</a> - <a href='../logic/process_delete_task.php?id={$row['task_id']}' onclick='return confirm(\"Are you sure you want to delete this task?\");'>Delete</a></li>";
                     }
                 } else {
                     echo "<li>No tasks found.</li>";
